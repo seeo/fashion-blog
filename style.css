@@ -1,0 +1,60 @@
+h1 a{
+  color: red;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav a{
+  color: lightgrey;
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-right: auto;
+}
+
+article h3{
+  color: lightgrey;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+article h2 a{
+  color: black;
+  text-decoration: none;
+}
+
+article h4 a{
+  color: red;
+  font-family: arial;
+  float: right;
+  text-decoration: none;
+}
+
+article p{
+  color: grey; /*grey */
+  font-family: arial;
+  line-height:150%;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+article p::first-letter {
+  color: rgb(221,221,221); /*grey */
+  font-size: 500%;
+  font-family: arial;
+  font-weight: lighter;
+}
